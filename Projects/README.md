@@ -15,5 +15,5 @@
 - Data Cleaning
 - Data Visualization
 - Exploratory Data Analysis (EDA)
-
-**Notebook Link:** 
+ 
+**Notebook Link:** [Netflix Data Analysis Notebook](Netflix_data_analysis.ipynb)
