@@ -1,0 +1,86 @@
+🧠 Handwritten Digit Recognition with Deep Learning
+
+📘 Overview
+
+This project uses Deep Learning to recognize handwritten digits (0–9) from the MNIST dataset.
+The model is built using TensorFlow and Keras, and trained to classify grayscale images of handwritten numbers with high accuracy.
+
+The goal of this project is to demonstrate how a simple Neural Network can learn to identify visual patterns and perform accurate image classification.
+------------------------------------------------------------------------
+🎯 Objectives
+
+1. Understand the fundamentals of deep learning and neural networks.
+
+2. Build a classification model using TensorFlow and Keras.
+
+3. Train the model to recognize handwritten digits from image data.
+
+4. Evaluate model performance using accuracy metrics.
+
+5. Visualize predictions for deeper insight.
+-----------------------------------------------------------------------------
+🧩 Dataset
+
+Dataset: MNIST Handwritten Digit Dataset
+
+Description: Contains 70,000 grayscale images (28x28 pixels) of digits 0–9.
+
+Split: 60,000 for training, 10,000 for testing.
+
+Each image represents one handwritten digit, and each pixel intensity ranges from 0 to 255.
+-------------------------------------------------------------------------------------------
+⚙️ Technologies Used
+
+- Python
+
+- TensorFlow / Keras
+
+- NumPy
+
+- Matplotlib
+---------------------------------------------------------------------------------------------
+🔍 Model Architecture
+
+The neural network is composed of:
+
+Flatten Layer – Converts 2D image (28x28) into 1D vector (784).
+
+Dense Layer (128 neurons) – Learns complex features using the ReLU activation function.
+
+Dense Output Layer (10 neurons) – Uses Softmax activation to classify digits from 0–9.
+--------------------------------------------------------------------------------------------------
+🚀 Steps Performed
+
+1. Loaded the MNIST dataset from TensorFlow.
+
+2. Preprocessed data by normalizing pixel values (0–255 → 0–1).
+
+3. Built a sequential neural network model.
+
+4. Compiled it with Adam optimizer and Sparse Categorical Crossentropy loss.
+
+5. Trained the model for 5 epochs.
+
+6. Evaluated accuracy on the test set (~98%).
+
+7. Visualized predictions to check model performance.
+
+📊 Results
+
+Training Accuracy: ~98%
+
+Test Accuracy: ~97%
+
+The model successfully recognizes most handwritten digits with minimal error.
+------------------------------------------------------------------------------------------------------
+💡 Insights
+
+Neural networks can effectively identify visual features like edges and curves.
+
+Normalization greatly improves training speed and stability.
+
+Even a simple 2-layer model can achieve excellent performance on structured datasets.
+---------------------------------------------------------------------------------------------------------------------
+
+🔗 Notebook Link
+https://colab.research.google.com/drive/1BOkAOkbgu9n5mzoF-Q-timlV1HifwYnV?usp=sharing
