@@ -26,17 +26,6 @@ I aim to use **data-driven insights** and **AI solutions** to solve real-world c
 
 ---
 
-## 🏅 Certificates  
-
-| Certificate | Platform | Skills |
-|--------------|-----------|---------|
-| Basics of Data Science | Athena University | Data Analysis, Python |
-| Data Science with Python | Simplilearn | Data Visualization, Pandas |
-| Machine Learning with Python | IBM (Cognitive Class) | Machine Learning, AI Models |
-| Deep Learning Fundamentals | IBM (Cognitive Class) | Neural Networks, Deep Learning, AI Concepts |
-
----
-
 ## 🧩 Skills  
 
 **Programming:** Python, Pandas, NumPy, Matplotlib, Scikit-learn, TensorFlow, Keras  
