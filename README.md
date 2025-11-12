@@ -23,7 +23,7 @@ I aim to use **data-driven insights** and **AI solutions** to solve real-world c
 | [Titanic Survival Prediction](https://github.com/ym23308/Data-Science-Portfolio/blob/main/Projects/Titanic_Survival_Prediction.ipynb) | Applied machine learning to predict passenger survival rates using demographic and travel features. | Python, Scikit-learn, Pandas |
 | [Fake News Detection (ML)](https://github.com/ym23308/Data-Science-Portfolio/blob/main/Projects/Fake_News_Detection.ipynb) | Created a model to classify news articles as fake or real using text processing and logistic regression. | Python, TF-IDF, Scikit-learn |
 | [Handwritten Digit Recognition (Deep Learning)](https://github.com/ym23308/Data-Science-Portfolio/blob/main/Projects/Handwritten_Digit_Recognition.ipynb) | Built a neural network using TensorFlow and Keras to recognize handwritten digits with 97% accuracy. | Python, TensorFlow, Keras, Matplotlib |
-
+| [Heart Disease Prediction ](https://github.com/ym23308/Data-Science-Portfolio/blob/main/Projects/Heart_Disease_Prediction_(_1D_CNN).ipynb) | Developed a deep learning model using TensorFlow and Keras to predict the likelihood of heart disease based on patient health data, achieving reliable classification performance through feature scaling and class weight balancing. | Python, TensorFlow, Keras, Scikit-learn, Pandas |
 ---
 
 ## 🧩 Skills  
