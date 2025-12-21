@@ -1,50 +1,80 @@
-# 📰 Fake News Detection using Machine Learning
+# 🧠 Brain Tumor MRI Classification Using Deep Learning
 
-**Objective:**  
-Build a machine learning model to detect whether a news article is fake or real using text data.
-
-**Dataset:**  
-[Fake and Real News Dataset (Kaggle)](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset)
+## 📘 Overview
+This project focuses on building a deep learning model to classify brain MRI images into four categories: **glioma**, **meningioma**, **pituitary tumor**, and **no tumor**.  
+The model uses Convolutional Neural Networks (CNNs) to automatically learn visual patterns from medical images and assist in accurate tumor detection.
 
 ---
 
-## 🧠 Project Overview
-This project aims to identify fake news articles based on their textual content.  
-By training a logistic regression model on labeled news data, the system learns to distinguish between fake and real news using natural language processing techniques.
+## 🎯 Objective
+To develop a deep learning model that accurately classifies brain MRI images into tumor types or no-tumor cases using convolutional neural networks.
 
 ---
 
-## ⚙️ Steps Involved
+## 🧩 Dataset
+- **Dataset:** Brain Tumor MRI Dataset (Kaggle)
+- **Classes:** Glioma, Meningioma, Pituitary, No Tumor
+- **Image Size:** **128 × 128 × 3 (RGB)**
+- **Data Structure:**
+  - Training/
+  - Testing/
 
-1. **Data Loading** – Load the dataset and combine fake and real news into one DataFrame.  
-2. **Text Preprocessing** – Clean text by removing punctuation, stopwords, and converting to lowercase.  
-3. **Vectorization** – Convert text into numerical features using TF-IDF Vectorizer.  
-4. **Model Training** – Train a Logistic Regression model on the processed data.  
-5. **Model Evaluation** – Measure accuracy, F1 score, and visualize results with a confusion matrix.
-
----
-
-## 🧰 Skills Used
-- Python (Pandas, Scikit-learn, Matplotlib)
-- Natural Language Processing (NLP)
-- Logistic Regression
-- Text Preprocessing (Stopword Removal, TF-IDF)
-- Data Visualization##
-  
----
-
-## Results📈
-- **Accuracy:** ~99%  
-- **F1 Score:** ~0.98  
-- The confusion matrix shows that the model correctly classified most news articles:
-  - 4,580 fake articles were correctly identified as fake.  
-  - 4,264 real articles were correctly identified as real.  
-  - Only 82 fake and 54 real articles were misclassified.  
-
-✅ **Conclusion:**  
-The model demonstrates high reliability in detecting fake news and can be applied as a baseline system for content verification.
+Images were resized to **128×128 pixels** to balance computational efficiency and model performance while preserving important medical features.
 
 ---
 
-## 🔗 Notebook Link
-[View on Google Colab](https://colab.research.google.com/drive/16J9iwYoYfMLSSVvi-KwrlaJAwVuDsf4t?usp=sharing)
+## ⚙️ Tools & Technologies
+- Python
+- TensorFlow / Keras
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Keras ImageDataGenerator
+
+---
+
+## 🧠 Model Architecture
+The CNN model consists of:
+- Convolutional layers with ReLU activation
+- MaxPooling layers for spatial reduction
+- Dropout layers to reduce overfitting
+- Fully connected Dense layers
+- Softmax output layer for multi-class classification
+
+**Compiled with:**
+- Optimizer: Adam  
+- Loss Function: Categorical Crossentropy  
+- Metric: Accuracy  
+
+---
+
+## 🚀 Workflow
+1. Loaded MRI images using `ImageDataGenerator`
+2. Resized images to **128×128** and normalized pixel values
+3. Applied data augmentation to improve generalization
+4. Built and compiled a CNN model
+5. Trained the model on the training dataset
+6. Evaluated performance on the test dataset
+7. Generated confusion matrix and classification report
+8. Visualized training and validation accuracy and loss
+
+---
+
+## 📊 Results
+- **Test Accuracy:** **97%**
+- Strong classification performance across all four classes
+- Minimal misclassification between tumor types
+- Stable training with no significant overfitting
+
+---
+
+## 💡 Key Insights
+- Resizing images to **128×128** significantly reduced computational cost while maintaining high accuracy
+- Data augmentation improved generalization on unseen MRI scans
+- CNNs are highly effective for medical image classification tasks
+
+---
+
+## 🔗 Notebook
+Google Colab Notebook:  
+https://colab.research.google.com/drive/1HBsUOmBam7CVbFuSBzH2nTdtihbFzrxI?usp=sharing
