@@ -11,20 +11,6 @@ I aim to use **data-driven insights** and **AI solutions** to solve real-world c
 - 💡 Interested in: **Artificial Intelligence, Data Science, and Software Development**  
 - 🎯 Aspiring to pursue a **Bachelor’s degree in Data Science & AI** at **AUBH**  
 
----
-
-## 💻 Projects  
-
-| Project | Description | Tools Used |
-|----------|--------------|-------------|
-| [Netflix Data Analysis](https://github.com/ym23308/Data-Science-Portfolio/blob/main/Projects/Netflix_data_analysis.ipynb) | Analyzed Netflix shows and movies to uncover content trends by type, release year, and country. | Python, Pandas, Matplotlib |
-| [World Happiness Report Analysis](https://github.com/ym23308/Data-Science-Portfolio/blob/main/Projects/World_Happiness_Report_analysis.ipynb) | Explored factors influencing global happiness scores and ranked countries accordingly. | Python, Pandas, Seaborn |
-| [Student Exam Score Prediction](https://github.com/ym23308/Data-Science-Portfolio/blob/main/Projects/Student_Exam_Score.ipynb) | Built a regression model to predict exam performance based on study habits. | Python, Scikit-learn |
-| [Titanic Survival Prediction](https://github.com/ym23308/Data-Science-Portfolio/blob/main/Projects/Titanic_Survival_Prediction.ipynb) | Applied machine learning to predict passenger survival rates using demographic and travel features. | Python, Scikit-learn, Pandas |
-| [Fake News Detection (ML)](https://github.com/ym23308/Data-Science-Portfolio/blob/main/Projects/Fake_News_Detection.ipynb) | Created a model to classify news articles as fake or real using text processing and logistic regression. | Python, TF-IDF, Scikit-learn |
-| [Handwritten Digit Recognition (Deep Learning)](https://github.com/ym23308/Data-Science-Portfolio/blob/main/Projects/Handwritten_Digit_Recognition.ipynb) | Built a neural network using TensorFlow and Keras to recognize handwritten digits with 97% accuracy. | Python, TensorFlow, Keras, Matplotlib |
-| [Heart Disease Prediction ](https://github.com/ym23308/Data-Science-Portfolio/blob/main/Projects/Heart_Disease_Prediction_(_1D_CNN).ipynb) | Developed a deep learning model using TensorFlow and Keras to predict the likelihood of heart disease based on patient health data, achieving reliable classification performance through feature scaling and class weight balancing. | Python, TensorFlow, Keras, Scikit-learn, Pandas |
-| [Brain Tumor Classification (Deep Learning)](https://github.com/ym23308/Data-Science-Portfolio/blob/main/Projects/Brain_Tumor_Classification.ipynb) | Built a convolutional neural network (CNN) to classify brain MRI images into glioma, meningioma, pituitary tumor, or no tumor, achieving high multi-class classification accuracy on medical imaging data. | Python, TensorFlow, Keras, NumPy, Matplotlib, Scikit-learn |
 
 ---
 
