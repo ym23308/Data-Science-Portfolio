@@ -1,0 +1,112 @@
+# 🤖 Real-Time Visual Perception System for Autonomous Robot Navigation
+
+## Overview
+
+Autonomous robots must understand their surroundings to navigate safely. This project demonstrates a computer vision system that detects objects from video input and simulates how a robot visually interprets its environment.
+
+The system uses a pretrained YOLOv8 model to identify objects such as:
+
+* people
+* vehicles
+* everyday obstacles
+
+Detected objects are highlighted with bounding boxes, and simple navigation logic simulates how a robot might react to them.
+
+---
+
+## Objective
+
+The main goals of this project are to:
+
+* Develop a real-time object detection system for robotic perception
+* Demonstrate how AI can help robots identify obstacles
+* Simulate simple navigation decisions based on detected objects
+* Analyze model performance using visualizations
+
+---
+
+## Dataset / Resources Used
+
+This project does not rely on a traditional dataset. Instead, it uses:
+
+* A **real-world video recorded with a smartphone** to simulate a robot's visual perspective
+* A pretrained **YOLOv8 model trained on the COCO dataset**, which contains common everyday objects
+
+---
+
+## Tools and Technologies
+
+The project was built using:
+
+* Python
+* OpenCV (video processing)
+* YOLOv8 – object detection model
+* Matplotlib – data visualization
+* Google Colab – development environment
+
+---
+
+## Methodology
+
+The system works through the following steps:
+
+1. **Model Initialization**
+   A pretrained YOLOv8 model is loaded for object detection.
+
+2. **Video Processing**
+   The system reads frames from a recorded video.
+
+3. **Object Detection**
+   Each frame is analyzed and objects are identified with bounding boxes and confidence scores.
+
+4. **Navigation Interpretation**
+   Detected objects are interpreted as potential obstacles.
+
+5. **Navigation Logic**
+   Simple rules simulate how a robot would react (e.g., stop when a person is detected).
+
+---
+
+## AI Analysis
+
+To understand the model’s behavior, several analyses were performed:
+
+**Confidence Score Analysis**
+
+* A histogram visualizes how confident the model is when detecting objects.
+
+**Object Frequency Analysis**
+
+* A bar chart shows how often each object type appears in the scene.
+
+These visualizations help evaluate the reliability of the object detection model.
+
+---
+
+## Results
+
+The system successfully:
+
+* detects objects from video input
+* highlights detected objects with bounding boxes
+* analyzes detection confidence
+* visualizes object frequency
+
+The final output video demonstrates how a robot could visually detect obstacles while navigating its surroundings.
+
+---
+
+## Future Improvements
+
+Possible enhancements include:
+
+* adding depth estimation to understand object distance
+* implementing continuous object tracking
+* training a custom object detection model
+* integrating the system with a real robotic platform
+
+---
+
+## Conclusion
+
+This project demonstrates how artificial intelligence and computer vision can simulate the perception capabilities required for autonomous robots. By combining real-time object detection with analytical insights, the system shows how machines can interpret and respond to their environment.
